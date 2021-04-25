@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIKeyAuth", "WebAPIKeyAuth\WebAPIKeyAuth.csproj", "{6C2DC555-F8AF-4AD4-B799-E6CBA998DFD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C2DC555-F8AF-4AD4-B799-E6CBA998DFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2DC555-F8AF-4AD4-B799-E6CBA998DFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2DC555-F8AF-4AD4-B799-E6CBA998DFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2DC555-F8AF-4AD4-B799-E6CBA998DFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EBB7375-6F36-4DAA-8F03-74D6CA84D219}
+	EndGlobalSection
+EndGlobal
