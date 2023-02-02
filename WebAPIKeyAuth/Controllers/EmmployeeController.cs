@@ -23,6 +23,11 @@ namespace WebAPIKeyAuth.Controllers
             };
             return Ok(employeeList);
         }
+        /// <summary>
+        /// This enpoint is just add employee
+        /// </summary>
+        /// <param name="employee"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("api/employee/add")]
         public IHttpActionResult AddEmployee([FromBody]Employee employee)
