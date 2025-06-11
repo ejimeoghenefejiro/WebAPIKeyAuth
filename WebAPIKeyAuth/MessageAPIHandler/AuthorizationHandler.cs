@@ -10,6 +10,13 @@ using System.Web;
 
 namespace WebAPIKeyAuth.MessageAPIHandler
 {
+    /// <summary>
+    /// Represents a custom message handler for authenticating API requests using an API key.
+    /// This handler intercepts incoming HTTP requests, extracts the 'X-ApiKey' header,
+    /// and validates it against a pre-configured API key. If the key is valid, the request
+    /// proceeds to the next handler in the pipeline; otherwise, a 403 Forbidden response
+    /// is returned.
+    /// </summary>
     public class AuthorizationHandler : DelegatingHandler
     {
         public const string APIKeyConfigured = "admin";
