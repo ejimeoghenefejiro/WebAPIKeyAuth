@@ -24,10 +24,15 @@ namespace WebAPIKeyAuth.Controllers
             return Ok(employeeList);
         }
         /// <summary>
-        /// This enpoint is just add employee
+        /// Adds a new employee record to the system.
         /// </summary>
-        /// <param name="employee"></param>
-        /// <returns></returns>
+        /// <param name="employee">The employee object containing details to be added.
+        /// This typically includes properties like Id and Name.</param>
+        /// <returns>
+        /// An <see cref="IHttpActionResult"/> indicating the outcome of the operation.
+        /// On successful addition, returns an <see cref="OkResult"/> with a confirmation message
+        /// including the ID and Name of the added employee.
+        /// </returns>
         [HttpPost]
         [Route("api/employee/add")]
         public IHttpActionResult AddEmployee([FromBody]Employee employee)
